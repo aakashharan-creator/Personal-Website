@@ -1,6 +1,5 @@
 import React from "react"
 import { Chrono } from "react-chrono";
-import BriefCase from '../../assets/images/briefcase.jpg'
 
 export default function WorkTimeline() {
   const item = {
@@ -50,12 +49,8 @@ export default function WorkTimeline() {
   const items = [item3, item2, item];
 
   return (
-    <div style={{ margin: 'auto', width: '75%', height: 'auto'}}>
+    <div style={{ margin: 'auto', width: '70%', height: 'auto'}}>
       <Chrono items={items} mode={"VERTICAL"} hideControls={true}>
-        <div className="chrono-icons">
-          <img src="image1.svg" alt="image1" />
-          <img src="image2.svg" alt="image2" />
-        </div>
       </Chrono>
     </div>
   )
