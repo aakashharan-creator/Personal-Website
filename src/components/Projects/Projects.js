@@ -24,10 +24,15 @@ export default function Projects() {
         url: 'https://github.com/aakashharan-creator/Stock-Model'
     }
 
-    const projects = [project1, project1, project1];
+    const project4 = {
+        title: 'Personal Website',
+        description: 'I developed a personal website with React.js and deployed it with Github Pages',
+        img: 'https://cdn.dribbble.com/users/2442115/screenshots/8699490/dec-01-2019_19-16-16.gif',
+        url: 'https://github.com/aakashharan-creator/Personal-Website' 
+    }
 
     return (
-        <div style={{ height: 'auto', minHeight: '100vh', paddingTop: '5%' }}>
+        <div style={{ height: 'auto', minHeight: '100vh', paddingTop: '5%', paddingBottom: '5%' }}>
             <h1 id='projects' style={{ paddingLeft: '5%' }}>Projects</h1>
             <div style={{ paddingLeft: '5%', textAlign: 'center'}}>
                 <div class="row">
@@ -39,6 +44,11 @@ export default function Projects() {
                     </div>
                     <div class="column">
                         <Project project={project3}/>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column">
+                        <Project project={project4}/>
                     </div>
                 </div>
             </div>
