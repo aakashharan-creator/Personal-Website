@@ -6,7 +6,7 @@ export default function EducationTimeline() {
     title: "August 2016 - November 2019",
     cardTitle: "The Indian Public School",
     url: "https://tipskovai.com/",
-    cardSubtitle: "International Baccalaureate",
+    cardSubtitle: "International Baccalaureate - Coimbatore, India",
     cardDetailedText: "I enrolled in Mathematics HL, Computer Science HL, Physics HL, English SL, French SL, and Business Management SL and attained 37/45 \
     in the International Baccalaureate program.",
     media: {
@@ -20,7 +20,7 @@ export default function EducationTimeline() {
     title: "August 2020 - May 2024",
     cardTitle: "Texas A&M University",
     url: "https://www.tamu.edu/",
-    cardSubtitle: "B.S. Computer Science",
+    cardSubtitle: "B.S. Computer Science - College Station, Texas",
     cardDetailedText: "I'm a Computer Science major at Texas A&M, planning to graduate in the spring of 2024 with a minor in statistics.",
     media: {
       type: "IMAGE",

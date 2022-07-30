@@ -6,7 +6,7 @@ export default function WorkTimeline() {
     title: "January 2021 - April 2022",
     cardTitle: "RazorMetrics",
     url: "https://razormetrics.com/",
-    cardSubtitle: "Data Analyst Intern",
+    cardSubtitle: "Data Analyst Intern - Remote",
     cardDetailedText: "While at RazorMetrics, I singlehandedly developed a novel, proprietary analysis module in the data pipeline to automate identification of \
         direct medication switches. I worked with Python, Tableau, AWS, PostgreSQL, and BitBucket",
     media: {
@@ -20,7 +20,7 @@ export default function WorkTimeline() {
     title: "May 2022 - August 2022",
     cardTitle: "Paycom",
     url: "https://www.paycom.com/",
-    cardSubtitle: "Software Developer Intern",
+    cardSubtitle: "Software Developer Intern - Grapevine, Texas",
     cardDetailedText: "At Paycom, I designed and optimized a data pipeline to scrape and filter web data to boost internal marketing resources. This \
     ended up having a projected savings of at least $950,000 for Paycom. \
     Some of the technologies I worked with during my internship were \
@@ -37,7 +37,7 @@ export default function WorkTimeline() {
     title: "September 2022 - ",
     cardTitle: "RazorMetrics",
     url: "https://razormetrics.com/",
-    cardSubtitle: "Software Developer Intern",
+    cardSubtitle: "Software Developer Intern - Remote",
     cardDetailedText: "To be announced!",
     media: {
       type: "IMAGE",
