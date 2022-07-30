@@ -1,5 +1,6 @@
 import React from "react"
 import { Chrono } from "react-chrono";
+import WorkItem from "./WorkItem";
 
 export default function WorkTimeline() {
   const item = {
@@ -22,7 +23,7 @@ export default function WorkTimeline() {
     url: "https://www.paycom.com/",
     cardSubtitle: "Software Developer Intern - Grapevine, Texas",
     cardDetailedText: "At Paycom, I designed a data pipeline to scrape and filter web data to boost internal marketing resources. This \
-    led to a projected savings of at least $950,000 for Paycom.",
+    led to a projected savings of at least $950,000 for Paycom. I worked with Node.js, Puppeteer, and React",
     media: {
       type: "IMAGE",
       source: {
@@ -44,11 +45,67 @@ export default function WorkTimeline() {
       }
     }
   };
+
   const items = [item3, item2, item];
+  const texts = [
+    {
+      text: 'To be announced!',
+      impacts: ['To be announced!'],
+      technologies: ['To be announced!'],
+      readMore: false
+    },
+    {
+      text: 'At Paycom, I designed a data pipeline to scrape and filter web data to boost internal marketing resources. This \
+      led to a projected savings of at least $950,000 for Paycom.',
+      impacts: ['Projected $950,000 savings', 'Boosted marketing resources by 15%'],
+      technologies: ['Javascript', 'Typescript', 'React', 'Puppeteer', 'Express', 'GitLab'],
+      readMore: true,
+    },
+    {
+      text: 'While at RazorMetrics, I singlehandedly developed a novel, proprietary analysis module in the data pipeline to automate identification of\
+      direct medication switches.',
+      impacts: ['Automated a completely manual process', 'Reduced time taken for identification by days'],
+      technologies: ['Python', 'PostgreSQL', 'AWS', 'Tableau', 'BitBucket'],
+      readMore: true
+    }
+  ]
 
   return (
-    <div style={{ margin: 'auto', width: '70%', height: 'auto'}}>
+    <div style={{ margin: 'auto', width: '70%', height: 'auto' }}>
       <Chrono items={items} mode={"VERTICAL"} hideControls={true}>
+        {
+          texts.map(text => {
+            return <WorkItem item={text} />
+          })
+        }
+        {/* <div>
+          <p style={{ textAlign: 'left' }}>To be announced!</p>
+        </div>
+        <div>
+          <p style={{ textAlign: 'left' }}>At Paycom, I designed a data pipeline to scrape and filter web data to boost internal marketing resources. This
+            led to a projected savings of at least $950,000 for Paycom. I worked with Node.js, Puppeteer, and React.</p>
+        </div>
+        <div>
+          <p style={{ textAlign: 'left' }}>While at RazorMetrics, I singlehandedly developed a novel, proprietary analysis module in the data pipeline to automate identification of
+            direct medication switches. I worked with Python, Tableau, and PostgreSQL.</p>
+          <div class='container' style={{ display: 'none' }}>
+            <div class='row'>
+              <div class='col-6'>
+                <h3>Impact</h3>
+                <ul style={{ listStyle: 'none' }}>
+                  <li>Item one</li>
+                  <li>Item one</li>
+                  <li>Item one</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div style={{ textAlign: 'right' }}>
+            <button class='btn btn-outline-primary'>
+              Read More
+            </button>
+          </div>
+        </div> */}
       </Chrono>
     </div>
   )
