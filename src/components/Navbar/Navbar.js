@@ -18,7 +18,7 @@ export default function Navbar() {
                             <NavLink sectionTitle={'About Me'} href={'about_me'} />
                         </li>
                         <li class="nav-item active">
-                            <NavLink sectionTitle={'Resume'} href={'resume'} />
+                            <NavLink sectionTitle={'Experience'} href={'resume'} />
                         </li>
                         <li class="nav-item active">
                             <NavLink sectionTitle={'Projects'} href={'projects'} />

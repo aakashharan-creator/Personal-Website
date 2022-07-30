@@ -42,3 +42,7 @@ a:active {color:#202120;}  /* Selected link   */
 .fa-white {
   color: white;
 }
+
+.profile-img {
+  max-width: 15%;
+}

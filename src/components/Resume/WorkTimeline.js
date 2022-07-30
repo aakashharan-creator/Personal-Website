@@ -21,8 +21,8 @@ export default function WorkTimeline() {
     cardTitle: "Paycom",
     url: "https://www.paycom.com/",
     cardSubtitle: "Software Developer Intern - Grapevine, Texas",
-    cardDetailedText: "At Paycom, I designed and optimized a data pipeline to scrape and filter web data to boost internal marketing resources. This \
-    ended up having a projected savings of at least $950,000 for Paycom. \
+    cardDetailedText: "At Paycom, I designed a data pipeline to scrape and filter web data to boost internal marketing resources. This \
+    led to a projected savings of at least $950,000 for Paycom. \
     Some of the technologies I worked with during my internship were \
    Node.js, Javascript, Puppeteer, and Gitlab.",
     media: {
