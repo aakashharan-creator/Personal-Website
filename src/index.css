@@ -1,0 +1,45 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.spacer
+{
+    width: 100%;
+    height: 95px;
+}
+
+.row {
+  display: flex;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 5%;
+}
+
+.row2 {
+  display: flex;
+  padding-left: 15%;
+  padding-right: 15%;
+  margin-bottom: -5%;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+  width: auto;
+}
+
+i {
+  min-width:150px;
+  min-height:150px;
+}
+
+a {color:#2e302e;}         /* Unvisited link  */
+a:visited {color:#2e302e;} /* Visited link    */
+a:hover {color:#202120;}   /* Mouse over link */
+a:active {color:#202120;}  /* Selected link   */
+
+.fa-white {
+  color: white;
+}
