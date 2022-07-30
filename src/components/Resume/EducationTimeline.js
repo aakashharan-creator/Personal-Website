@@ -23,6 +23,7 @@ export default function EducationTimeline() {
     cardSubtitle: "B.S. Computer Science - College Station, Texas",
     cardDetailedText: "I'm a Computer Science major at Texas A&M, planning to graduate in the spring of 2024 with a minor in statistics.",
     media: {
+/* The image that is displayed on the right side of the timeline. */
       type: "IMAGE",
       source: {
         url: "https://indiaeducationdiary.in/wp-content/uploads/2020/12/standard.png"
