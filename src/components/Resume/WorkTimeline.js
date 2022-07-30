@@ -8,7 +8,7 @@ export default function WorkTimeline() {
     url: "https://razormetrics.com/",
     cardSubtitle: "Data Analyst Intern - Remote",
     cardDetailedText: "While at RazorMetrics, I singlehandedly developed a novel, proprietary analysis module in the data pipeline to automate identification of \
-        direct medication switches. I worked with Python, Tableau, AWS, PostgreSQL, and BitBucket",
+        direct medication switches. I worked with Python, Tableau, and PostgreSQL",
     media: {
       type: "IMAGE",
       source: {
@@ -22,9 +22,7 @@ export default function WorkTimeline() {
     url: "https://www.paycom.com/",
     cardSubtitle: "Software Developer Intern - Grapevine, Texas",
     cardDetailedText: "At Paycom, I designed a data pipeline to scrape and filter web data to boost internal marketing resources. This \
-    led to a projected savings of at least $950,000 for Paycom. \
-    Some of the technologies I worked with during my internship were \
-   Node.js, Javascript, Puppeteer, and Gitlab.",
+    led to a projected savings of at least $950,000 for Paycom.",
     media: {
       type: "IMAGE",
       source: {
