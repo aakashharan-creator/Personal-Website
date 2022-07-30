@@ -7,7 +7,7 @@ export default function Project(props) {
             <div class="card-body">
                 <h5 class="card-title">{props.project.title}</h5>
                 <p class="card-text">{props.project.description}</p>
-                <a href={props.project.url} class="btn btn-primary" disabled>View Project</a>
+                <a href={props.project.url} target="_blank" rel="noopener noreferrer" class="btn btn-primary" disabled>View Project</a>
             </div>
         </div>
     )
