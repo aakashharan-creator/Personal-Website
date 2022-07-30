@@ -1,7 +1,7 @@
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
 import Contact from './components/Contact/Contact';
-import AboutMe from './components/AboutMe';
+import AboutMe from './components/AboutMe/AboutMe';
 import Resume from './components/Resume/Resume';
 import Projects from './components/Projects/Projects';
 import Bottom from './components/Bottom';
