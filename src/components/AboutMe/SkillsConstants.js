@@ -23,6 +23,13 @@ export const language_skills = [
         }
     },
     {
+        type: 'Java',
+        level: 75, color: {
+            bar: '#2e4f50',
+            title: { text: '#fff', background: '#2e4f50' }
+        }
+    },
+    {
         type: 'JS/TS',
         level: 70, color: {
             bar: '#5a68a5',

@@ -22,10 +22,10 @@ export default function AboutMe() {
                 <div class="row">
                     <div class='col-12'>
                         <h4>
-                            I'm a computer science major seeking a summer 2023 technical internship.
-                            I'm graduating in spring of 2024 from TAMU with a minor in statistics.
-                            I have a strong interest in data science and financial technology and would love
-                            to pursue projects in those fields.
+                        I'm a 2024 Computer Science major with a Statistics 
+                        Minor from TAMU seeking a technical internship in summer 2023. 
+                        I have a strong interest in data science and financial technology 
+                        and would love to pursue projects in these sectors.
                         </h4>
                     </div>
                 </div>
@@ -43,7 +43,7 @@ export default function AboutMe() {
                     </div>
                     <div class="col-6">
                         <h5 >
-                            SKILLS
+                            TECHNICAL SKILLS
                         </h5>
                         <h6 style={{paddingTop: '5%', paddingBottom: '5%'}}>
                             I'm an experienced coder with a strong ability for problem-solving. I'm confident

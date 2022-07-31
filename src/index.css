@@ -76,6 +76,24 @@ i {
   color: black;
 }
 
+.hidden {
+  height: 10px;
+  -webkit-transition: height 0.5s linear;
+     -moz-transition: height 0.5s linear;
+      -ms-transition: height 0.5s linear;
+       -o-transition: height 0.5s linear;
+          transition: height 0.5s linear;
+}
+
+.hidden.open {
+   height: 200px;
+   -webkit-transition: height 0.5s linear;
+      -moz-transition: height 0.5s linear;
+       -ms-transition: height 0.5s linear;
+        -o-transition: height 0.5s linear;
+           transition: height 0.5s linear;
+}
+
 h1, h2, h3, h4, h4, h5, p, div {
   /* font-family: Arial, Helvetica, sans-serif */
 }

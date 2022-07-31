@@ -3,7 +3,7 @@ import { Chrono } from "react-chrono";
 
 export default function EducationTimeline() {
     const item = {
-        title: "August 2016 - November 2019",
+        title: "Aug 2016 - Nov 2019",
         cardTitle: "The Indian Public School",
         url: "https://tipskovai.com/",
         cardSubtitle: "International Baccalaureate - Coimbatore, India",
@@ -17,7 +17,7 @@ export default function EducationTimeline() {
         }
     };
     const item2 = {
-        title: "August 2020 - May 2024",
+        title: "Aug 2020 - May 2024",
         cardTitle: "Texas A&M University",
         url: "https://www.tamu.edu/",
         cardSubtitle: "B.S. Computer Science - College Station, Texas",

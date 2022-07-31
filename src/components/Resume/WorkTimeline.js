@@ -4,7 +4,7 @@ import WorkItem from "./WorkItem";
 
 export default function WorkTimeline() {
   const item = {
-    title: "January 2021 - April 2022",
+    title: "Jan 2021 - Apr 2022",
     cardTitle: "RazorMetrics",
     url: "https://razormetrics.com/",
     cardSubtitle: "Data Analyst Intern - Remote",
@@ -18,7 +18,7 @@ export default function WorkTimeline() {
     }
   };
   const item2 = {
-    title: "May 2022 - August 2022",
+    title: "May 2022 - Aug 2022",
     cardTitle: "Paycom",
     url: "https://www.paycom.com/",
     cardSubtitle: "Software Developer Intern - Grapevine, Texas",
@@ -33,7 +33,7 @@ export default function WorkTimeline() {
   };
 
   const item3 = {
-    title: "September 2022 - ",
+    title: "Sep 2022 - Present",
     cardTitle: "RazorMetrics",
     url: "https://razormetrics.com/",
     cardSubtitle: "Software Developer Intern - Remote",
