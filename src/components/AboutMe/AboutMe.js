@@ -38,7 +38,7 @@ export default function AboutMe() {
                 <div class="row">
                     <div class='col-12'>
                         <h4>
-                            I'm a computer science major seeking a summer 2023 technical internships.
+                            I'm a computer science major seeking a summer 2023 technical internship.
                             I'm graduating in spring of 2024 from TAMU with a minor in statistics.
                             I have a strong interest in data science and financial technology and would love
                             to pursue projects in those fields.
