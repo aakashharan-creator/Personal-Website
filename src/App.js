@@ -6,8 +6,14 @@ import Resume from './components/Resume/Resume';
 import Projects from './components/Projects/Projects';
 import Bottom from './components/Bottom';
 import Home from './components/Home';
+import React, {useEffect} from 'react';
 
 function App() {
+  useEffect(() => {
+    console.log('test2');
+    window.scrollTo(0, 0)
+  }, [])
+
   return (
     <div>
       <Navbar />
