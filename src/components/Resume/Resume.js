@@ -4,7 +4,7 @@ import EducationTimeline from './EducationTimeline'
 
 export default function Resume() {
   return (
-    <div>
+    <div style={{paddingTop: '5%'}}>
       <h1 id='resume' style={{ height: '4vh', paddingLeft: '5%'}}>Work Experience</h1>
       <WorkTimeline />
       <h1 id='resume' style={{ height: '4vh', paddingLeft: '5%', paddingTop: '5%'}}>Education</h1>

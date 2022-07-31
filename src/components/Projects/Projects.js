@@ -31,10 +31,17 @@ export default function Projects() {
         url: 'https://github.com/aakashharan-creator/Personal-Website' 
     }
 
+    const project5 = {
+        title: 'LeetCode',
+        description: 'A repository of some of the LeetCode problems I\'ve solved',
+        img: 'https://user-images.githubusercontent.com/36547915/97088991-45da5d00-1652-11eb-900f-80d106540f4f.png',
+        url: 'https://github.com/aakashharan-creator/LeetCode-Solutions' 
+    }
+
     return (
         <div style={{ height: 'auto', minHeight: '100vh', paddingTop: '5%', paddingBottom: '5%' }}>
             <h1 id='projects' style={{ paddingLeft: '5%' }}>Projects</h1>
-            <div style={{ paddingLeft: '5%', textAlign: 'center'}}>
+            <div style={{ paddingLeft: '5%', textAlign: 'center'}} >
                 <div class="row">
                     <div class="column">
                         <Project project={project1}/>

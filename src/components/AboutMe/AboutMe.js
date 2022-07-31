@@ -1,25 +1,9 @@
 import React from 'react'
 import Profile from '../../assets/images/profile.jpeg'
 import SkillBar from 'react-skillbars';
+import { language_skills, framework_skills } from './SkillsConstants';
 
-export default function AboutMe() {
-    const skills = [
-        {type: "Python", level: 90},
-        {type: "SQL", level: 75},
-        {type: "C/C++", level: 70},
-        {type: "JS/React", level: 65},
-        {type: "HTML/CSS", level: 60}
-      ];
-
-      const colors = {
-        bar: 'green',
-        title: {
-          text: 'black',
-          background: '#fff'
-        }
-      }
-      
-
+export default function AboutMe() {     
     return (
         <div id='about_me' style={{ height: 'auto', minHeight: '100vh'}}>
             <div class="container">
@@ -61,11 +45,18 @@ export default function AboutMe() {
                         <h5 >
                             SKILLS
                         </h5>
-                        <h6 style={{paddingBottom: '5%'}}>
+                        <h6 style={{paddingTop: '5%', paddingBottom: '5%'}}>
                             I'm an experienced coder with a strong ability for problem-solving. I'm confident
                             that I'll be an asset to any project I'm fortunate enough to be a part of.
                         </h6>
-                        <SkillBar skills={skills} colors={colors}/>
+                        <h5 style={{paddingBottom: '5%'}} >
+                            FRAMEWORKS AND LIBRARIES
+                        </h5>
+                        <SkillBar skills={framework_skills} animationDelay={1000}/>
+                        <h5 style={{paddingBottom: '5%'}} >
+                            LANGUAGES
+                        </h5>
+                        <SkillBar skills={language_skills} animationDelay={1000}/>
                     </div>
                 </div>
             </div>

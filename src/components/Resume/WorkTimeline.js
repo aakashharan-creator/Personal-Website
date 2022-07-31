@@ -57,7 +57,7 @@ export default function WorkTimeline() {
     {
       text: 'At Paycom, I designed a data pipeline to scrape and filter web data to boost internal marketing resources. This \
       led to a projected savings of at least $950,000 for Paycom.',
-      impacts: ['Projected $950,000 savings', 'Boosted marketing resources by 15%'],
+      impacts: ['Projected $950,000 savings', 'Boosted marketing resources by 15%', 'Presented our project to the CIO'],
       technologies: ['Javascript', 'Typescript', 'React', 'Puppeteer', 'Express', 'GitLab'],
       readMore: true,
     },

@@ -10,7 +10,7 @@ function getButton(readMore, style, setStyle, btnText, setBtnText) {
 
 function handleClick(style, setStyle, setBtnText) {
     if (style === 'hide') {
-        setStyle('');
+        setStyle('show');
         setBtnText('Read Less');
     } else {
         setStyle('hide');
