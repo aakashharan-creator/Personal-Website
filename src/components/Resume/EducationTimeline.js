@@ -1,5 +1,6 @@
 import React from "react"
 import { Chrono } from "react-chrono";
+import EducationItem from "./EducationItem";
 
 export default function EducationTimeline() {
     const item = {
@@ -32,19 +33,30 @@ export default function EducationTimeline() {
     };
     const items = [item2, item];
 
+    const texts = [
+        {
+            text: 'I\'m a Computer Science major at Texas A&M, planning to graduate in the spring of 2024 with a minor in statistics and mathematics.',
+            coursework: ['CSCE 121 - Introduction to Program Design and Concepts', 'CSCE 221 - Data Structures and Algorithms',
+                        'CSCE 222 - Discrete Structures for Computing', 'CSCE 312 - Computer Organization', 'CSCE 313 - Introduction to Computer Systems',
+                        'CSCE 314 - Programming Languages', 'CSCE 411 - Design and Analysis of Algorithms'],
+            readMore: true
+        },
+        {
+            text: 'I enrolled in Mathematics HL, Computer Science HL, Physics HL, English SL, French SL, and Business Management SL and attained 37/45 in the International Baccalaureate program.',
+            coursework: [],
+            technologies: [],
+            readMore: false,
+        },
+    ]
+
     return (
         <div style={{ margin: 'auto', width: '70%', height: 'auto' }}>
             <Chrono items={items} mode={"VERTICAL"} hideControls={true}>
-                <div>
-                    <p style={{ textAlign: 'left' }}>
-                        I'm a Computer Science major at Texas A&M, planning to graduate in the spring of 2024 with a minor in statistics and mathematics.
-                    </p>
-                </div>
-                <div>
-                    <p style={{ textAlign: 'left' }}>I enrolled in Mathematics HL, Computer Science HL, Physics HL, English SL, French SL, and Business Management SL and attained 37/45
-                        in the International Baccalaureate program.
-                    </p>
-                </div>
+                {
+                    texts.map(text => {
+                        return <EducationItem item={text} />
+                    })
+                }
             </Chrono>
         </div>
     )

@@ -78,34 +78,6 @@ export default function WorkTimeline() {
             return <WorkItem item={text} />
           })
         }
-        {/* <div>
-          <p style={{ textAlign: 'left' }}>To be announced!</p>
-        </div>
-        <div>
-          <p style={{ textAlign: 'left' }}>At Paycom, I designed a data pipeline to scrape and filter web data to boost internal marketing resources. This
-            led to a projected savings of at least $950,000 for Paycom. I worked with Node.js, Puppeteer, and React.</p>
-        </div>
-        <div>
-          <p style={{ textAlign: 'left' }}>While at RazorMetrics, I singlehandedly developed a novel, proprietary analysis module in the data pipeline to automate identification of
-            direct medication switches. I worked with Python, Tableau, and PostgreSQL.</p>
-          <div class='container' style={{ display: 'none' }}>
-            <div class='row'>
-              <div class='col-6'>
-                <h3>Impact</h3>
-                <ul style={{ listStyle: 'none' }}>
-                  <li>Item one</li>
-                  <li>Item one</li>
-                  <li>Item one</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div style={{ textAlign: 'right' }}>
-            <button class='btn btn-outline-primary'>
-              Read More
-            </button>
-          </div>
-        </div> */}
       </Chrono>
     </div>
   )

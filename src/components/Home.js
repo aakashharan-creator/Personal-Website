@@ -42,7 +42,7 @@ export default function Home() {
         ''];
 
     return (
-        <div id='home' style={{ height: '100vh', textAlign: 'center' }}>
+        <div id='home' style={{ height: '100vh', textAlign: 'center'}}>
             {/* <div id='typewriter' style={{paddingTop: '3%'}}>
 
             </div> */}
