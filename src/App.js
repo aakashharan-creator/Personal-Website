@@ -10,8 +10,6 @@ import React, {useEffect} from 'react';
 
 function App() {
   useEffect(() => {
-    console.log('test2');
-    window.scrollTo(0, 0)
   }, [])
 
   return (

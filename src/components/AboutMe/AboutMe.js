@@ -15,7 +15,7 @@ export default function AboutMe() {
                 <div class="row" style={{textAlign: 'center'}}>
                     <div class='col-12'>
                         <h2>
-                            Let me tell you about myself
+                            Here's a quick summary about myself
                         </h2>
                     </div>
                 </div>
@@ -52,11 +52,11 @@ export default function AboutMe() {
                         <h5 style={{paddingBottom: '5%'}} >
                             FRAMEWORKS AND LIBRARIES
                         </h5>
-                        <SkillBar skills={framework_skills} animationDelay={1000}/>
+                        <SkillBar skills={framework_skills} animationDelay={0}/>
                         <h5 style={{paddingBottom: '5%'}} >
                             LANGUAGES
                         </h5>
-                        <SkillBar skills={language_skills} animationDelay={1000}/>
+                        <SkillBar skills={language_skills} animationDelay={0}/>
                     </div>
                 </div>
             </div>

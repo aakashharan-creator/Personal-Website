@@ -50,7 +50,7 @@ export default function EducationTimeline() {
     ]
 
     return (
-        <div style={{ margin: 'auto', width: '70%', height: 'auto' }}>
+        <div style={{ margin: 'auto', width: '75%', height: 'auto' }}>
             <Chrono items={items} mode={"VERTICAL"} hideControls={true}>
                 {
                     texts.map(text => {
