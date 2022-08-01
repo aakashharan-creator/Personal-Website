@@ -39,7 +39,7 @@ export default function Projects() {
     }
 
     return (
-        <div style={{ height: 'auto', minHeight: '100vh', paddingTop: '5%', paddingBottom: '5%', backgroundColor: '#EFFFFD' }}>
+        <div style={{ height: 'auto', minHeight: '100vh', paddingTop: '5%', paddingBottom: '5%'}}>
             <h1 id='projects' style={{ paddingLeft: '5%' }}>Projects</h1>
             <div style={{ paddingLeft: '5%', textAlign: 'center'}} >
                 <div class="row">
