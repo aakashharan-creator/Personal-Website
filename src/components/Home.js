@@ -22,7 +22,9 @@ export default function Home() {
                 offset={-70}
                 duration={500}
             >
-                <button class='btn btn-primary'>Learn More</button>
+                {/* <button class='btn btn-primary'>Learn More</button> */}
+                {/* <i class="fa fa-4x fa-solid fa-angle-down"></i> */}
+                <i class="fa fa-4x fa-solid fa-circle-chevron-up"></i>
             </Link>
         }
     }
@@ -31,31 +33,38 @@ export default function Home() {
         setTimeout(() => {
             setAboutText("Hi, my name is Aakash")
             setShown(true);
-        }, 25000)
+        }, 18500)
     })
 
     const sentences = [
-        '<h1>an avid coder</h1>',
+        '<h1>an avid problem solver</h1>',
+        '<h1>a software professional</h1>',
         '<h1>a tennis player</h1>',
-        '<h1>a veteran manga enthusiast :)</h1>',
         '<h1>a piano player</h1>',
+        '<h1>a manga enthusiast :)</h1>',
         ''];
 
     return (
         <div id='home' style={{ height: '100vh', textAlign: 'center' }}>
+<<<<<<< HEAD
             {/* <div id='typewriter' style={{paddingTop: '3%'}}>
 
             </div> */}
             <h1 style={{ paddingTop: '20%' }}>{aboutText}</h1>
 
 
+=======
+            <h1 style={{ paddingTop: '20%' }}>{aboutText}</h1>
+>>>>>>> 144180c58d346ea444ee898dd7e76603983ba3fa
             <Typewriter
                 options={{
                     strings: sentences,
                     autoStart: true,
                     loop: false,
                     cursorClassName: 'h1',
-                    cursor: ''
+                    cursor: '',
+                    pauseFor: 500,
+                    delay: 60
                 }}
             />
             {getLink()}
