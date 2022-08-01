@@ -46,16 +46,7 @@ export default function Home() {
 
     return (
         <div id='home' style={{ height: '100vh', textAlign: 'center' }}>
-<<<<<<< HEAD
-            {/* <div id='typewriter' style={{paddingTop: '3%'}}>
-
-            </div> */}
             <h1 style={{ paddingTop: '20%' }}>{aboutText}</h1>
-
-
-=======
-            <h1 style={{ paddingTop: '20%' }}>{aboutText}</h1>
->>>>>>> 144180c58d346ea444ee898dd7e76603983ba3fa
             <Typewriter
                 options={{
                     strings: sentences,

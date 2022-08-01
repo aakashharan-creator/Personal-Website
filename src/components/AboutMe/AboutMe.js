@@ -43,6 +43,7 @@ export default function AboutMe() {
                         <h6 style={{ paddingBottom: '3%' }}>GPA - 3.76</h6>
                         <h6 style={{ paddingBottom: '3%' }}>Work Experience - 1.5 years</h6>
                         {/* <h6><a href="https://drive.google.com/file/d/1i4Em7_lY0wI2mq9_NuipPuyVR0ztUPPk/view?usp=sharing" target="_blank" rel="noopener noreferrer">Full Resume</a></h6> */}
+                        <h5 style={{paddingTop: '5%'}}>MY RESUME</h5>
                         <a href="https://drive.google.com/file/d/1i4Em7_lY0wI2mq9_NuipPuyVR0ztUPPk/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                             <img className='resumeImage' src={resume} style={{ maxWidth: '90%', paddingTop: '5%' }} />
                         </a>
