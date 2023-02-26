@@ -1,0 +1,869 @@
+
+> personal_website@0.1.0 lint
+> eslint ./
+
+
+/Users/aakash_personal/Desktop/personal_website/src/App.js
+   9:1   error  `react` import should occur before import of `./components/Navbar/Navbar`  import/order
+   9:15  error  A space is required after '{'                                              object-curly-spacing
+   9:25  error  A space is required before '}'                                             object-curly-spacing
+  13:9   error  Missing semicolon                                                          semi
+  16:5   error  JSX not allowed in files with extension '.js'                              react/jsx-filename-extension
+  18:22  error  Unexpected usage of singlequote                                            jsx-quotes
+  25:15  error  A space is required before closing bracket                                 react/jsx-tag-spacing
+
+/Users/aakash_personal/Desktop/personal_website/src/components/AboutMe/AboutMe.js
+   1:17  error  'useState' is defined but never used                                                                       no-unused-vars
+   1:40  error  Missing semicolon                                                                                          semi
+   2:55  error  Missing semicolon                                                                                          semi
+   3:1   error  `react-skillbars` import should occur before import of `../../assets/images/profile.jpeg`                  import/order
+   4:10  error  Identifier 'language_skills' is not in camel case                                                          camelcase
+   4:27  error  Identifier 'framework_skills' is not in camel case                                                         camelcase
+   7:35  error  Block must not be padded by blank lines                                                                    padded-blocks
+   9:1   error  More than 1 blank line not allowed                                                                         no-multiple-empty-lines
+  10:1   error  Expected indentation of 2 spaces but found 4                                                               indent
+  11:9   error  Expected indentation of 6 space characters but found 8                                                     react/jsx-indent
+  11:9   error  JSX not allowed in files with extension '.js'                                                              react/jsx-filename-extension
+  11:17  error  Unexpected usage of singlequote                                                                            jsx-quotes
+  12:13  error  Expected indentation of 10 space characters but found 12                                                   react/jsx-indent
+  12:18  error  Unknown property 'class' found, use 'className' instead                                                    react/no-unknown-property
+  12:43  error  A space is required after '{'                                                                              object-curly-spacing
+  12:59  error  A space is required before '}'                                                                             object-curly-spacing
+  13:17  error  Expected indentation of 14 space characters but found 16                                                   react/jsx-indent
+  13:22  error  Unknown property 'class' found, use 'className' instead                                                    react/no-unknown-property
+  13:28  error  Unexpected usage of singlequote                                                                            jsx-quotes
+  14:21  error  Expected indentation of 18 space characters but found 20                                                   react/jsx-indent
+  14:26  error  Unknown property 'class' found, use 'className' instead                                                    react/no-unknown-property
+  14:32  error  Unexpected usage of singlequote                                                                            jsx-quotes
+  15:25  error  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  15:25  error  Expected indentation of 22 space characters but found 24                                                   react/jsx-indent
+  15:40  error  Unexpected usage of singlequote                                                                            jsx-quotes
+  18:17  error  Expected indentation of 14 space characters but found 16                                                   react/jsx-indent
+  18:22  error  Unknown property 'class' found, use 'className' instead                                                    react/no-unknown-property
+  19:21  error  Expected indentation of 18 space characters but found 20                                                   react/jsx-indent
+  19:26  error  Unknown property 'class' found, use 'className' instead                                                    react/no-unknown-property
+  19:32  error  Unexpected usage of singlequote                                                                            jsx-quotes
+  20:25  error  Expected indentation of 22 space characters but found 24                                                   react/jsx-indent
+  20:29  error  Expected indentation of 26 space characters but found 28                                                   react/jsx-indent
+  21:33  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`                                            react/no-unescaped-entities
+  25:17  error  Expected indentation of 14 space characters but found 16                                                   react/jsx-indent
+  25:22  error  Unknown property 'class' found, use 'className' instead                                                    react/no-unknown-property
+  26:21  error  Expected indentation of 18 space characters but found 20                                                   react/jsx-indent
+  26:26  error  Unknown property 'class' found, use 'className' instead                                                    react/no-unknown-property
+  26:32  error  Unexpected usage of singlequote                                                                            jsx-quotes
+  27:25  error  Expected indentation of 22 space characters but found 24                                                   react/jsx-indent
+  27:29  error  Expected indentation of 26 space characters but found 28                                                   react/jsx-indent
+  27:29  error  Expected indentation of 26 space characters but found 28                                                   react/jsx-indent
+  27:29  error  Expected indentation of 26 space characters but found 28                                                   react/jsx-indent
+  27:29  error  Expected indentation of 26 space characters but found 28                                                   react/jsx-indent
+  28:30  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`                                            react/no-unescaped-entities
+  35:17  error  Expected indentation of 14 space characters but found 16                                                   react/jsx-indent
+  35:22  error  Unknown property 'class' found, use 'className' instead                                                    react/no-unknown-property
+  36:21  error  Expected indentation of 18 space characters but found 20                                                   react/jsx-indent
+  36:26  error  Unknown property 'class' found, use 'className' instead                                                    react/no-unknown-property
+  37:25  error  Expected indentation of 22 space characters but found 24                                                   react/jsx-indent
+  37:28  error  A space is forbidden before closing bracket                                                                react/jsx-tag-spacing
+  37:30  error  Expected indentation of 26 space characters but found 28                                                   react/jsx-indent
+  40:25  error  Expected indentation of 22 space characters but found 24                                                   react/jsx-indent
+  41:25  error  Expected indentation of 22 space characters but found 24                                                   react/jsx-indent
+  42:25  error  Expected indentation of 22 space characters but found 24                                                   react/jsx-indent
+  43:25  error  Expected indentation of 22 space characters but found 24                                                   react/jsx-indent
+  44:25  error  Expected indentation of 22 space characters but found 24                                                   react/jsx-indent
+  45:25  error  Expected indentation of 22 space characters but found 24                                                   react/jsx-indent
+  46:25  error  Expected indentation of 22 space characters but found 24                                                   react/jsx-indent
+  46:36  error  A space is required after '{'                                                                              object-curly-spacing
+  46:53  error  A space is required before '}'                                                                             object-curly-spacing
+  47:25  error  Expected indentation of 22 space characters but found 24                                                   react/jsx-indent
+  48:29  error  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  48:29  error  Expected indentation of 26 space characters but found 28                                                   react/jsx-indent
+  48:44  error  Unexpected usage of singlequote                                                                            jsx-quotes
+  51:21  error  Expected indentation of 18 space characters but found 20                                                   react/jsx-indent
+  51:26  error  Unknown property 'class' found, use 'className' instead                                                    react/no-unknown-property
+  52:25  error  Expected indentation of 22 space characters but found 24                                                   react/jsx-indent
+  52:28  error  A space is forbidden before closing bracket                                                                react/jsx-tag-spacing
+  52:30  error  Expected indentation of 26 space characters but found 28                                                   react/jsx-indent
+  55:25  error  Expected indentation of 22 space characters but found 24                                                   react/jsx-indent
+  55:79  error  Expected indentation of 26 space characters but found 28                                                   react/jsx-indent
+  55:79  error  Expected indentation of 26 space characters but found 28                                                   react/jsx-indent
+  56:1   error  This line has a length of 109. Maximum allowed is 100                                                      max-len
+  56:30  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`                                            react/no-unescaped-entities
+  56:98  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`                                            react/no-unescaped-entities
+  57:1   error  This line has a length of 102. Maximum allowed is 100                                                      max-len
+  57:35  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`                                            react/no-unescaped-entities
+  57:67  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`                                            react/no-unescaped-entities
+  59:25  error  Expected indentation of 22 space characters but found 24                                                   react/jsx-indent
+  59:60  error  A space is forbidden before closing bracket                                                                react/jsx-tag-spacing
+  59:62  error  Expected indentation of 26 space characters but found 28                                                   react/jsx-indent
+  62:25  error  Expected indentation of 22 space characters but found 24                                                   react/jsx-indent
+  62:43  error  Identifier 'framework_skills' is not in camel case                                                         camelcase
+  62:79  error  A space is required before closing bracket                                                                 react/jsx-tag-spacing
+  63:25  error  Expected indentation of 22 space characters but found 24                                                   react/jsx-indent
+  63:36  error  A space is required after '{'                                                                              object-curly-spacing
+  63:56  error  A space is required before '}'                                                                             object-curly-spacing
+  63:58  error  A space is forbidden before closing bracket                                                                react/jsx-tag-spacing
+  63:60  error  Expected indentation of 26 space characters but found 28                                                   react/jsx-indent
+  66:25  error  Expected indentation of 22 space characters but found 24                                                   react/jsx-indent
+  66:43  error  Identifier 'language_skills' is not in camel case                                                          camelcase
+  66:78  error  A space is required before closing bracket                                                                 react/jsx-tag-spacing
+  71:1   error  Expected indentation of 2 spaces but found 4                                                               indent
+  71:6   error  Missing semicolon                                                                                          semi
+
+/Users/aakash_personal/Desktop/personal_website/src/components/AboutMe/SkillsConstants.js
+   1:14  error  Identifier 'language_skills' is not in camel case                            camelcase
+   2:1   error  Expected indentation of 2 spaces but found 4                                 indent
+   3:1   error  Expected indentation of 4 spaces but found 8                                 indent
+   4:1   error  Expected indentation of 4 spaces but found 8                                 indent
+   5:1   error  Expected indentation of 4 spaces but found 8                                 indent
+   6:1   error  Expected indentation of 6 spaces but found 12                                indent
+   7:1   error  Expected indentation of 6 spaces but found 12                                indent
+   7:59  error  Missing trailing comma                                                       comma-dangle
+   8:1   error  Expected indentation of 4 spaces but found 8                                 indent
+   8:10  error  Missing trailing comma                                                       comma-dangle
+   9:1   error  Expected indentation of 2 spaces but found 4                                 indent
+  10:1   error  Expected indentation of 2 spaces but found 4                                 indent
+  11:1   error  Expected indentation of 4 spaces but found 8                                 indent
+  12:1   error  Expected indentation of 4 spaces but found 8                                 indent
+  13:1   error  Expected indentation of 4 spaces but found 8                                 indent
+  14:1   error  Expected indentation of 6 spaces but found 12                                indent
+  15:1   error  Expected indentation of 6 spaces but found 12                                indent
+  15:59  error  Missing trailing comma                                                       comma-dangle
+  16:1   error  Expected indentation of 4 spaces but found 8                                 indent
+  16:10  error  Missing trailing comma                                                       comma-dangle
+  17:1   error  Expected indentation of 2 spaces but found 4                                 indent
+  18:1   error  Expected indentation of 2 spaces but found 4                                 indent
+  19:1   error  Expected indentation of 4 spaces but found 8                                 indent
+  20:1   error  Expected indentation of 4 spaces but found 8                                 indent
+  20:20  error  Object properties must go on a new line if they aren't all on the same line  object-property-newline
+  21:1   error  Expected indentation of 6 spaces but found 12                                indent
+  22:1   error  Expected indentation of 6 spaces but found 12                                indent
+  22:59  error  Missing trailing comma                                                       comma-dangle
+  23:1   error  Expected indentation of 4 spaces but found 8                                 indent
+  23:10  error  Missing trailing comma                                                       comma-dangle
+  24:1   error  Expected indentation of 2 spaces but found 4                                 indent
+  25:1   error  Expected indentation of 2 spaces but found 4                                 indent
+  26:1   error  Expected indentation of 4 spaces but found 8                                 indent
+  27:1   error  Expected indentation of 4 spaces but found 8                                 indent
+  27:20  error  Object properties must go on a new line if they aren't all on the same line  object-property-newline
+  28:1   error  Expected indentation of 6 spaces but found 12                                indent
+  29:1   error  Expected indentation of 6 spaces but found 12                                indent
+  29:59  error  Missing trailing comma                                                       comma-dangle
+  30:1   error  Expected indentation of 4 spaces but found 8                                 indent
+  30:10  error  Missing trailing comma                                                       comma-dangle
+  31:1   error  Expected indentation of 2 spaces but found 4                                 indent
+  32:1   error  Expected indentation of 2 spaces but found 4                                 indent
+  33:1   error  Expected indentation of 4 spaces but found 8                                 indent
+  34:1   error  Expected indentation of 4 spaces but found 8                                 indent
+  34:20  error  Object properties must go on a new line if they aren't all on the same line  object-property-newline
+  35:1   error  Expected indentation of 6 spaces but found 12                                indent
+  36:1   error  Expected indentation of 6 spaces but found 12                                indent
+  36:59  error  Missing trailing comma                                                       comma-dangle
+  37:1   error  Expected indentation of 4 spaces but found 8                                 indent
+  37:10  error  Missing trailing comma                                                       comma-dangle
+  38:1   error  Expected indentation of 2 spaces but found 4                                 indent
+  39:1   error  Expected indentation of 2 spaces but found 4                                 indent
+  40:1   error  Expected indentation of 4 spaces but found 8                                 indent
+  41:1   error  Expected indentation of 4 spaces but found 8                                 indent
+  42:1   error  Expected indentation of 4 spaces but found 8                                 indent
+  43:1   error  Expected indentation of 6 spaces but found 12                                indent
+  44:1   error  Expected indentation of 6 spaces but found 12                                indent
+  44:59  error  Missing trailing comma                                                       comma-dangle
+  45:1   error  Expected indentation of 4 spaces but found 8                                 indent
+  45:10  error  Missing trailing comma                                                       comma-dangle
+  46:1   error  Expected indentation of 2 spaces but found 4                                 indent
+  46:6   error  Missing trailing comma                                                       comma-dangle
+  49:14  error  Identifier 'framework_skills' is not in camel case                           camelcase
+  50:1   error  Expected indentation of 2 spaces but found 4                                 indent
+  51:1   error  Expected indentation of 4 spaces but found 8                                 indent
+  52:1   error  Expected indentation of 4 spaces but found 8                                 indent
+  53:1   error  Expected indentation of 4 spaces but found 8                                 indent
+  54:1   error  Expected indentation of 6 spaces but found 12                                indent
+  55:1   error  Expected indentation of 6 spaces but found 12                                indent
+  55:59  error  Missing trailing comma                                                       comma-dangle
+  56:1   error  Expected indentation of 4 spaces but found 8                                 indent
+  56:10  error  Missing trailing comma                                                       comma-dangle
+  57:1   error  Expected indentation of 2 spaces but found 4                                 indent
+  58:1   error  Expected indentation of 2 spaces but found 4                                 indent
+  59:1   error  Expected indentation of 4 spaces but found 8                                 indent
+  60:1   error  Expected indentation of 4 spaces but found 8                                 indent
+  61:1   error  Expected indentation of 4 spaces but found 8                                 indent
+  62:1   error  Expected indentation of 6 spaces but found 12                                indent
+  63:1   error  Expected indentation of 6 spaces but found 12                                indent
+  63:59  error  Missing trailing comma                                                       comma-dangle
+  64:1   error  Expected indentation of 4 spaces but found 8                                 indent
+  64:10  error  Missing trailing comma                                                       comma-dangle
+  65:1   error  Expected indentation of 2 spaces but found 4                                 indent
+  66:1   error  Expected indentation of 2 spaces but found 4                                 indent
+  67:1   error  Expected indentation of 4 spaces but found 8                                 indent
+  68:1   error  Expected indentation of 4 spaces but found 8                                 indent
+  68:20  error  Object properties must go on a new line if they aren't all on the same line  object-property-newline
+  69:1   error  Expected indentation of 6 spaces but found 12                                indent
+  70:1   error  Expected indentation of 6 spaces but found 12                                indent
+  70:59  error  Missing trailing comma                                                       comma-dangle
+  71:1   error  Expected indentation of 4 spaces but found 8                                 indent
+  71:10  error  Missing trailing comma                                                       comma-dangle
+  72:1   error  Expected indentation of 2 spaces but found 4                                 indent
+  73:1   error  Expected indentation of 2 spaces but found 4                                 indent
+  74:1   error  Expected indentation of 4 spaces but found 8                                 indent
+  75:1   error  Expected indentation of 4 spaces but found 8                                 indent
+  75:20  error  Object properties must go on a new line if they aren't all on the same line  object-property-newline
+  76:1   error  Expected indentation of 6 spaces but found 12                                indent
+  77:1   error  Expected indentation of 6 spaces but found 12                                indent
+  77:59  error  Missing trailing comma                                                       comma-dangle
+  78:1   error  Expected indentation of 4 spaces but found 8                                 indent
+  78:10  error  Missing trailing comma                                                       comma-dangle
+  79:1   error  Expected indentation of 2 spaces but found 4                                 indent
+  80:1   error  Expected indentation of 2 spaces but found 4                                 indent
+  81:1   error  Expected indentation of 4 spaces but found 8                                 indent
+  82:1   error  Expected indentation of 4 spaces but found 8                                 indent
+  82:20  error  Object properties must go on a new line if they aren't all on the same line  object-property-newline
+  83:1   error  Expected indentation of 6 spaces but found 12                                indent
+  84:1   error  Expected indentation of 6 spaces but found 12                                indent
+  84:59  error  Missing trailing comma                                                       comma-dangle
+  85:1   error  Expected indentation of 4 spaces but found 8                                 indent
+  85:10  error  Missing trailing comma                                                       comma-dangle
+  86:1   error  Expected indentation of 2 spaces but found 4                                 indent
+  87:1   error  Expected indentation of 2 spaces but found 4                                 indent
+  88:1   error  Expected indentation of 4 spaces but found 8                                 indent
+  89:1   error  Expected indentation of 4 spaces but found 8                                 indent
+  90:1   error  Expected indentation of 4 spaces but found 8                                 indent
+  91:1   error  Expected indentation of 6 spaces but found 12                                indent
+  92:1   error  Expected indentation of 6 spaces but found 12                                indent
+  92:59  error  Missing trailing comma                                                       comma-dangle
+  93:1   error  Expected indentation of 4 spaces but found 8                                 indent
+  93:10  error  Missing trailing comma                                                       comma-dangle
+  94:1   error  Expected indentation of 2 spaces but found 4                                 indent
+  94:6   error  Missing trailing comma                                                       comma-dangle
+  95:3   error  Newline required at end of file but not found                                eol-last
+
+/Users/aakash_personal/Desktop/personal_website/src/components/Bottom.js
+  1:26  error    Missing semicolon                                       semi
+  3:16  warning  Unexpected unnamed function                             func-names
+  5:5   error    JSX not allowed in files with extension '.js'           react/jsx-filename-extension
+  5:17  error    A space is required after '{'                           object-curly-spacing
+  5:81  error    A space is required before '}'                          object-curly-spacing
+  6:9   error    Expected indentation of 6 space characters but found 8  react/jsx-indent
+  6:20  error    A space is required after '{'                           object-curly-spacing
+  6:56  error    A space is required before '}'                          object-curly-spacing
+  8:4   error    Missing semicolon                                       semi
+
+/Users/aakash_personal/Desktop/personal_website/src/components/Contact/Contact.js
+   1:26   error  Missing semicolon                                                semi
+   2:32   error  Missing semicolon                                                semi
+   6:5    error  JSX not allowed in files with extension '.js'                    react/jsx-filename-extension
+   6:13   error  Unexpected usage of singlequote                                  jsx-quotes
+  10:1    error  This line has a length of 127. Maximum allowed is 100            max-len
+  10:12   error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  10:103  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  11:50   error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  11:61   error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  17:4    error  Missing semicolon                                                semi
+
+/Users/aakash_personal/Desktop/personal_website/src/components/Contact/LogoRow.js
+   1:26   error  Missing semicolon                                         semi
+   2:8    error  'linkedinlogo' is defined but never used                  no-unused-vars
+   2:64   error  Missing semicolon                                         semi
+   3:8    error  'emaillogo' is defined but never used                     no-unused-vars
+   3:57   error  Missing semicolon                                         semi
+   4:8    error  'locationlogo' is defined but never used                  no-unused-vars
+   4:64   error  Missing semicolon                                         semi
+   7:1    error  Expected indentation of 2 spaces but found 4              indent
+   8:9    error  Expected indentation of 6 space characters but found 8    react/jsx-indent
+   8:9    error  JSX not allowed in files with extension '.js'             react/jsx-filename-extension
+   8:14   error  Unknown property 'class' found, use 'className' instead   react/no-unknown-property
+   9:13   error  Expected indentation of 10 space characters but found 12  react/jsx-indent
+   9:18   error  Unknown property 'class' found, use 'className' instead   react/no-unknown-property
+  10:17   error  A control must be associated with a text label            jsx-a11y/control-has-associated-label
+  10:17   error  Expected indentation of 14 space characters but found 16  react/jsx-indent
+  10:30   error  Unexpected usage of singlequote                           jsx-quotes
+  10:42   error  Unexpected usage of singlequote                           jsx-quotes
+  10:278  error  Empty components are self-closing                         react/self-closing-comp
+  10:281  error  Unknown property 'class' found, use 'className' instead   react/no-unknown-property
+  12:13   error  Expected indentation of 10 space characters but found 12  react/jsx-indent
+  12:18   error  Unknown property 'class' found, use 'className' instead   react/no-unknown-property
+  13:17   error  A control must be associated with a text label            jsx-a11y/control-has-associated-label
+  13:17   error  Expected indentation of 14 space characters but found 16  react/jsx-indent
+  13:30   error  Unexpected usage of singlequote                           jsx-quotes
+  13:118  error  Empty components are self-closing                         react/self-closing-comp
+  13:121  error  Unknown property 'class' found, use 'className' instead   react/no-unknown-property
+  15:13   error  Expected indentation of 10 space characters but found 12  react/jsx-indent
+  15:18   error  Unknown property 'class' found, use 'className' instead   react/no-unknown-property
+  16:17   error  A control must be associated with a text label            jsx-a11y/control-has-associated-label
+  16:17   error  Expected indentation of 14 space characters but found 16  react/jsx-indent
+  16:30   error  Unexpected usage of singlequote                           jsx-quotes
+  16:42   error  Unexpected usage of singlequote                           jsx-quotes
+  16:128  error  Empty components are self-closing                         react/self-closing-comp
+  16:131  error  Unknown property 'class' found, use 'className' instead   react/no-unknown-property
+  18:13   error  Expected indentation of 10 space characters but found 12  react/jsx-indent
+  18:18   error  Unknown property 'class' found, use 'className' instead   react/no-unknown-property
+  19:17   error  A control must be associated with a text label            jsx-a11y/control-has-associated-label
+  19:17   error  Expected indentation of 14 space characters but found 16  react/jsx-indent
+  19:30   error  Unexpected usage of singlequote                           jsx-quotes
+  19:42   error  Unexpected usage of singlequote                           jsx-quotes
+  19:125  error  Empty components are self-closing                         react/self-closing-comp
+  19:128  error  Unknown property 'class' found, use 'className' instead   react/no-unknown-property
+  22:1    error  Expected indentation of 2 spaces but found 4              indent
+  22:6    error  Missing semicolon                                         semi
+
+/Users/aakash_personal/Desktop/personal_website/src/components/Home.js
+   1:51  error  Missing semicolon                                                       semi
+   2:24  error  'T' is defined but never used                                           no-unused-vars
+   4:1   error  `./Contact/LogoRow` import should occur after import of `react-scroll`  import/order
+   4:8   error  'LogoRow' is defined but never used                                     no-unused-vars
+   5:10  error  'Nav' is defined but never used                                         no-unused-vars
+   6:22  error  Strings must use singlequote                                            quotes
+   8:1   error  More than 1 blank line not allowed                                      no-multiple-empty-lines
+  10:1   error  Expected indentation of 2 spaces but found 4                            indent
+  11:1   error  Expected indentation of 2 spaces but found 4                            indent
+  11:83  error  Missing semicolon                                                       semi
+  13:1   error  Expected indentation of 2 spaces but found 4                            indent
+  13:14  error  Expected to return a value at the end of function 'getLink'             consistent-return
+  14:1   error  Expected indentation of 4 spaces but found 8                            indent
+  15:1   error  Expected indentation of 6 spaces but found 12                           indent
+  15:20  error  Missing parentheses around multilines JSX                               react/jsx-wrap-multilines
+  15:20  error  JSX not allowed in files with extension '.js'                           react/jsx-filename-extension
+  15:26  error  Property should be placed on a new line                                 react/jsx-first-prop-new-line
+  16:17  error  Expected indentation of 14 space characters but found 16                react/jsx-indent-props
+  16:22  error  Unexpected usage of singlequote                                         jsx-quotes
+  17:17  error  Expected indentation of 14 space characters but found 16                react/jsx-indent-props
+  17:20  error  Unexpected usage of singlequote                                         jsx-quotes
+  18:17  error  Expected indentation of 14 space characters but found 16                react/jsx-indent-props
+  19:17  error  Expected indentation of 14 space characters but found 16                react/jsx-indent-props
+  20:17  error  Expected indentation of 14 space characters but found 16                react/jsx-indent-props
+  20:17  error  Value must be omitted for boolean attributes                            react/jsx-boolean-value
+  21:17  error  Expected indentation of 14 space characters but found 16                react/jsx-indent-props
+  21:17  error  Value must be omitted for boolean attributes                            react/jsx-boolean-value
+  22:17  error  Expected indentation of 14 space characters but found 16                react/jsx-indent-props
+  23:17  error  Expected indentation of 14 space characters but found 16                react/jsx-indent-props
+  25:17  error  Expected indentation of 14 space characters but found 16                react/jsx-indent
+  26:17  error  Expected indentation of 14 space characters but found 16                react/jsx-indent
+  27:17  error  Empty components are self-closing                                       react/self-closing-comp
+  27:17  error  Expected indentation of 14 space characters but found 16                react/jsx-indent
+  27:20  error  Unknown property 'class' found, use 'className' instead                 react/no-unknown-property
+  28:13  error  Expected closing tag to match indentation of opening                    react/jsx-closing-tag-location
+  28:20  error  Missing semicolon                                                       semi
+  29:1   error  Expected indentation of 4 spaces but found 8                            indent
+  30:1   error  Expected indentation of 2 spaces but found 4                            indent
+  32:1   error  Expected indentation of 2 spaces but found 4                            indent
+  33:1   error  Expected indentation of 4 spaces but found 8                            indent
+  34:1   error  Expected indentation of 6 spaces but found 12                           indent
+  34:26  error  Strings must use singlequote                                            quotes
+  34:50  error  Missing semicolon                                                       semi
+  35:1   error  Expected indentation of 6 spaces but found 12                           indent
+  36:1   error  Expected indentation of 4 spaces but found 8                            indent
+  36:18  error  Missing semicolon                                                       semi
+  37:1   error  Expected indentation of 2 spaces but found 4                            indent
+  37:7   error  Missing semicolon                                                       semi
+  39:1   error  Expected indentation of 2 spaces but found 4                            indent
+  40:1   error  Expected indentation of 4 spaces but found 8                            indent
+  41:1   error  Expected indentation of 4 spaces but found 8                            indent
+  42:1   error  Expected indentation of 4 spaces but found 8                            indent
+  43:1   error  Expected indentation of 4 spaces but found 8                            indent
+  44:1   error  Expected indentation of 4 spaces but found 8                            indent
+  45:1   error  Expected indentation of 4 spaces but found 8                            indent
+  47:1   error  Expected indentation of 2 spaces but found 4                            indent
+  48:9   error  Expected indentation of 6 space characters but found 8                  react/jsx-indent
+  48:17  error  Unexpected usage of singlequote                                         jsx-quotes
+  49:13  error  Expected indentation of 10 space characters but found 12                react/jsx-indent
+  50:13  error  Expected indentation of 10 space characters but found 12                react/jsx-indent
+  51:17  error  Expected indentation of 14 space characters but found 16                react/jsx-indent-props
+  52:1   error  Expected indentation of 18 spaces but found 20                          indent
+  53:1   error  Expected indentation of 18 spaces but found 20                          indent
+  54:1   error  Expected indentation of 18 spaces but found 20                          indent
+  55:1   error  Expected indentation of 18 spaces but found 20                          indent
+  56:1   error  Expected indentation of 18 spaces but found 20                          indent
+  57:1   error  Expected indentation of 18 spaces but found 20                          indent
+  58:1   error  Expected indentation of 18 spaces but found 20                          indent
+  58:30  error  Missing trailing comma                                                  comma-dangle
+  61:13  error  Expected indentation of 10 space characters but found 12                react/jsx-indent
+  63:1   error  Expected indentation of 2 spaces but found 4                            indent
+  63:6   error  Missing semicolon                                                       semi
+
+/Users/aakash_personal/Desktop/personal_website/src/components/Navbar/NavLink.js
+   1:26  error  Missing semicolon                                         semi
+   2:22  error  Strings must use singlequote                              quotes
+   6:1   error  Expected indentation of 2 spaces but found 4              indent
+   7:9   error  Expected indentation of 6 space characters but found 8    react/jsx-indent
+   7:9   error  JSX not allowed in files with extension '.js'             react/jsx-filename-extension
+   8:13  error  Expected indentation of 10 space characters but found 12  react/jsx-indent
+   9:17  error  Expected indentation of 14 space characters but found 16  react/jsx-indent
+  10:21  error  Expected indentation of 18 space characters but found 20  react/jsx-indent-props
+  10:27  error  Unexpected string concatenation                           prefer-template
+  10:33  error  Must use destructuring props assignment                   react/destructuring-assignment
+  10:39  error  'href' is missing in props validation                     react/prop-types
+  11:21  error  Expected indentation of 18 space characters but found 20  react/jsx-indent-props
+  11:25  error  Must use destructuring props assignment                   react/destructuring-assignment
+  11:31  error  'href' is missing in props validation                     react/prop-types
+  12:21  error  Expected indentation of 18 space characters but found 20  react/jsx-indent-props
+  13:21  error  Expected indentation of 18 space characters but found 20  react/jsx-indent-props
+  14:21  error  Expected indentation of 18 space characters but found 20  react/jsx-indent-props
+  14:21  error  Value must be omitted for boolean attributes              react/jsx-boolean-value
+  15:21  error  Expected indentation of 18 space characters but found 20  react/jsx-indent-props
+  15:21  error  Value must be omitted for boolean attributes              react/jsx-boolean-value
+  16:21  error  Expected indentation of 18 space characters but found 20  react/jsx-indent-props
+  17:21  error  Expected indentation of 18 space characters but found 20  react/jsx-indent-props
+  19:21  error  Expected indentation of 18 space characters but found 20  react/jsx-indent
+  19:22  error  Must use destructuring props assignment                   react/destructuring-assignment
+  19:28  error  'sectionTitle' is missing in props validation             react/prop-types
+  23:1   error  Expected indentation of 2 spaces but found 4              indent
+  23:6   error  Missing semicolon                                         semi
+
+/Users/aakash_personal/Desktop/personal_website/src/components/Navbar/Navbar.js
+   1:26  error  Missing semicolon                                                                                                                                                                                                                                                                                                                                                         semi
+   5:1   error  Expected indentation of 2 spaces but found 4                                                                                                                                                                                                                                                                                                                              indent
+   6:9   error  Expected indentation of 6 space characters but found 8                                                                                                                                                                                                                                                                                                                    react/jsx-indent
+   6:9   error  JSX not allowed in files with extension '.js'                                                                                                                                                                                                                                                                                                                             react/jsx-filename-extension
+   7:13  error  Expected indentation of 10 space characters but found 12                                                                                                                                                                                                                                                                                                                  react/jsx-indent
+   7:18  error  Unknown property 'class' found, use 'className' instead                                                                                                                                                                                                                                                                                                                   react/no-unknown-property
+   8:17  error  The href attribute is required for an anchor to be keyboard accessible. Provide a valid, navigable address as the href value. If you cannot provide an href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+   8:17  error  Expected indentation of 14 space characters but found 16                                                                                                                                                                                                                                                                                                                  react/jsx-indent
+   8:20  error  Unknown property 'class' found, use 'className' instead                                                                                                                                                                                                                                                                                                                   react/no-unknown-property
+   9:17  error  Expected indentation of 14 space characters but found 16                                                                                                                                                                                                                                                                                                                  react/jsx-indent
+   9:25  error  Unknown property 'class' found, use 'className' instead                                                                                                                                                                                                                                                                                                                   react/no-unknown-property
+  10:21  error  Empty components are self-closing                                                                                                                                                                                                                                                                                                                                         react/self-closing-comp
+  10:21  error  Expected indentation of 18 space characters but found 20                                                                                                                                                                                                                                                                                                                  react/jsx-indent
+  10:27  error  Unknown property 'class' found, use 'className' instead                                                                                                                                                                                                                                                                                                                   react/no-unknown-property
+  12:17  error  Expected indentation of 14 space characters but found 16                                                                                                                                                                                                                                                                                                                  react/jsx-indent
+  12:22  error  Unknown property 'class' found, use 'className' instead                                                                                                                                                                                                                                                                                                                   react/no-unknown-property
+  13:21  error  Expected indentation of 18 space characters but found 20                                                                                                                                                                                                                                                                                                                  react/jsx-indent
+  13:25  error  Unknown property 'class' found, use 'className' instead                                                                                                                                                                                                                                                                                                                   react/no-unknown-property
+  14:25  error  Expected indentation of 22 space characters but found 24                                                                                                                                                                                                                                                                                                                  react/jsx-indent
+  14:29  error  Unknown property 'class' found, use 'className' instead                                                                                                                                                                                                                                                                                                                   react/no-unknown-property
+  15:29  error  Expected indentation of 26 space characters but found 28                                                                                                                                                                                                                                                                                                                  react/jsx-indent
+  15:51  error  Curly braces are unnecessary here                                                                                                                                                                                                                                                                                                                                         react/jsx-curly-brace-presence
+  15:65  error  Curly braces are unnecessary here                                                                                                                                                                                                                                                                                                                                         react/jsx-curly-brace-presence
+  17:25  error  Expected indentation of 22 space characters but found 24                                                                                                                                                                                                                                                                                                                  react/jsx-indent
+  17:29  error  Unknown property 'class' found, use 'className' instead                                                                                                                                                                                                                                                                                                                   react/no-unknown-property
+  18:29  error  Expected indentation of 26 space characters but found 28                                                                                                                                                                                                                                                                                                                  react/jsx-indent
+  18:51  error  Curly braces are unnecessary here                                                                                                                                                                                                                                                                                                                                         react/jsx-curly-brace-presence
+  18:69  error  Curly braces are unnecessary here                                                                                                                                                                                                                                                                                                                                         react/jsx-curly-brace-presence
+  20:25  error  Expected indentation of 22 space characters but found 24                                                                                                                                                                                                                                                                                                                  react/jsx-indent
+  20:29  error  Unknown property 'class' found, use 'className' instead                                                                                                                                                                                                                                                                                                                   react/no-unknown-property
+  21:29  error  Expected indentation of 26 space characters but found 28                                                                                                                                                                                                                                                                                                                  react/jsx-indent
+  21:51  error  Curly braces are unnecessary here                                                                                                                                                                                                                                                                                                                                         react/jsx-curly-brace-presence
+  21:71  error  Curly braces are unnecessary here                                                                                                                                                                                                                                                                                                                                         react/jsx-curly-brace-presence
+  23:25  error  Expected indentation of 22 space characters but found 24                                                                                                                                                                                                                                                                                                                  react/jsx-indent
+  23:29  error  Unknown property 'class' found, use 'className' instead                                                                                                                                                                                                                                                                                                                   react/no-unknown-property
+  24:29  error  Expected indentation of 26 space characters but found 28                                                                                                                                                                                                                                                                                                                  react/jsx-indent
+  24:51  error  Curly braces are unnecessary here                                                                                                                                                                                                                                                                                                                                         react/jsx-curly-brace-presence
+  24:69  error  Curly braces are unnecessary here                                                                                                                                                                                                                                                                                                                                         react/jsx-curly-brace-presence
+  26:25  error  Expected indentation of 22 space characters but found 24                                                                                                                                                                                                                                                                                                                  react/jsx-indent
+  26:29  error  Unknown property 'class' found, use 'className' instead                                                                                                                                                                                                                                                                                                                   react/no-unknown-property
+  27:29  error  Expected indentation of 26 space characters but found 28                                                                                                                                                                                                                                                                                                                  react/jsx-indent
+  27:51  error  Curly braces are unnecessary here                                                                                                                                                                                                                                                                                                                                         react/jsx-curly-brace-presence
+  27:68  error  Curly braces are unnecessary here                                                                                                                                                                                                                                                                                                                                         react/jsx-curly-brace-presence
+  33:1   error  Expected indentation of 2 spaces but found 4                                                                                                                                                                                                                                                                                                                              indent
+  33:6   error  Missing semicolon                                                                                                                                                                                                                                                                                                                                                         semi
+
+/Users/aakash_personal/Desktop/personal_website/src/components/Projects/Project.js
+   1:26  error  Missing semicolon                                                                                                                                                                                semi
+   4:1   error  Expected indentation of 2 spaces but found 4                                                                                                                                                     indent
+   5:9   error  Expected indentation of 6 space characters but found 8                                                                                                                                           react/jsx-indent
+   5:9   error  JSX not allowed in files with extension '.js'                                                                                                                                                    react/jsx-filename-extension
+   5:14  error  Unknown property 'class' found, use 'className' instead                                                                                                                                          react/no-unknown-property
+   5:43  error  Strings must use singlequote                                                                                                                                                                     quotes
+   5:50  error  A space is required before '}'                                                                                                                                                                   object-curly-spacing
+   6:13  error  Redundant alt attribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specified custom words) in the alt prop  jsx-a11y/img-redundant-alt
+   6:13  error  Expected indentation of 10 space characters but found 12                                                                                                                                         react/jsx-indent
+   6:18  error  Unknown property 'class' found, use 'className' instead                                                                                                                                          react/no-unknown-property
+   6:44  error  Must use destructuring props assignment                                                                                                                                                          react/destructuring-assignment
+   6:50  error  'project' is missing in props validation                                                                                                                                                         react/prop-types
+   6:58  error  'project.img' is missing in props validation                                                                                                                                                     react/prop-types
+   7:13  error  Expected indentation of 10 space characters but found 12                                                                                                                                         react/jsx-indent
+   7:18  error  Unknown property 'class' found, use 'className' instead                                                                                                                                          react/no-unknown-property
+   8:17  error  Expected indentation of 14 space characters but found 16                                                                                                                                         react/jsx-indent
+   8:21  error  Unknown property 'class' found, use 'className' instead                                                                                                                                          react/no-unknown-property
+   8:41  error  Must use destructuring props assignment                                                                                                                                                          react/destructuring-assignment
+   8:47  error  'project' is missing in props validation                                                                                                                                                         react/prop-types
+   8:55  error  'project.title' is missing in props validation                                                                                                                                                   react/prop-types
+   9:17  error  Expected indentation of 14 space characters but found 16                                                                                                                                         react/jsx-indent
+   9:20  error  Unknown property 'class' found, use 'className' instead                                                                                                                                          react/no-unknown-property
+   9:39  error  Must use destructuring props assignment                                                                                                                                                          react/destructuring-assignment
+   9:45  error  'project' is missing in props validation                                                                                                                                                         react/prop-types
+   9:53  error  'project.description' is missing in props validation                                                                                                                                             react/prop-types
+  10:17  error  Expected indentation of 14 space characters but found 16                                                                                                                                         react/jsx-indent
+  10:26  error  Must use destructuring props assignment                                                                                                                                                          react/destructuring-assignment
+  10:32  error  'project' is missing in props validation                                                                                                                                                         react/prop-types
+  10:40  error  'project.url' is missing in props validation                                                                                                                                                     react/prop-types
+  10:87  error  Unknown property 'class' found, use 'className' instead                                                                                                                                          react/no-unknown-property
+  13:1   error  Expected indentation of 2 spaces but found 4                                                                                                                                                     indent
+  13:6   error  Missing semicolon                                                                                                                                                                                semi
+
+/Users/aakash_personal/Desktop/personal_website/src/components/Projects/Projects.js
+   1:26  error  Missing semicolon                                             semi
+   2:32  error  Missing semicolon                                             semi
+   5:1   error  Expected indentation of 2 spaces but found 4                  indent
+   6:1   error  Expected indentation of 4 spaces but found 8                  indent
+   7:1   error  Expected indentation of 4 spaces but found 8                  indent
+   7:22  error  Multiline support is limited to browsers supporting ES5 only  no-multi-str
+   9:1   error  Expected indentation of 4 spaces but found 8                  indent
+  10:1   error  Expected indentation of 4 spaces but found 8                  indent
+  10:61  error  Missing trailing comma                                        comma-dangle
+  11:1   error  Expected indentation of 2 spaces but found 4                  indent
+  11:6   error  Missing semicolon                                             semi
+  13:1   error  Expected indentation of 2 spaces but found 4                  indent
+  14:1   error  Expected indentation of 4 spaces but found 8                  indent
+  15:1   error  Expected indentation of 4 spaces but found 8                  indent
+  16:1   error  Expected indentation of 4 spaces but found 8                  indent
+  17:1   error  Expected indentation of 4 spaces but found 8                  indent
+  17:67  error  Missing trailing comma                                        comma-dangle
+  18:1   error  Expected indentation of 2 spaces but found 4                  indent
+  18:6   error  Missing semicolon                                             semi
+  20:1   error  Expected indentation of 2 spaces but found 4                  indent
+  21:1   error  Expected indentation of 4 spaces but found 8                  indent
+  22:1   error  Expected indentation of 4 spaces but found 8                  indent
+  23:1   error  Expected indentation of 4 spaces but found 8                  indent
+  24:1   error  Expected indentation of 4 spaces but found 8                  indent
+  24:66  error  Missing trailing comma                                        comma-dangle
+  25:1   error  Expected indentation of 2 spaces but found 4                  indent
+  25:6   error  Missing semicolon                                             semi
+  27:1   error  Expected indentation of 2 spaces but found 4                  indent
+  28:1   error  Expected indentation of 4 spaces but found 8                  indent
+  29:1   error  Expected indentation of 4 spaces but found 8                  indent
+  30:1   error  Expected indentation of 4 spaces but found 8                  indent
+  31:1   error  Expected indentation of 4 spaces but found 8                  indent
+  31:71  error  Trailing spaces not allowed                                   no-trailing-spaces
+  31:71  error  Missing trailing comma                                        comma-dangle
+  32:1   error  Expected indentation of 2 spaces but found 4                  indent
+  32:6   error  Missing semicolon                                             semi
+  34:1   error  Expected indentation of 2 spaces but found 4                  indent
+  34:11  error  'project5' is assigned a value but never used                 no-unused-vars
+  35:1   error  Expected indentation of 4 spaces but found 8                  indent
+  36:1   error  Expected indentation of 4 spaces but found 8                  indent
+  37:1   error  Expected indentation of 4 spaces but found 8                  indent
+  38:1   error  Expected indentation of 4 spaces but found 8                  indent
+  38:73  error  Trailing spaces not allowed                                   no-trailing-spaces
+  38:73  error  Missing trailing comma                                        comma-dangle
+  39:1   error  Expected indentation of 2 spaces but found 4                  indent
+  39:6   error  Missing semicolon                                             semi
+  41:1   error  Expected indentation of 2 spaces but found 4                  indent
+  42:9   error  Expected indentation of 6 space characters but found 8        react/jsx-indent
+  42:9   error  JSX not allowed in files with extension '.js'                 react/jsx-filename-extension
+  42:21  error  Expected a line break after this opening brace                object-curly-newline
+  42:96  error  A space is required before '}'                                object-curly-spacing
+  42:96  error  Expected a line break before this closing brace               object-curly-newline
+  43:13  error  Expected indentation of 10 space characters but found 12      react/jsx-indent
+  43:20  error  Unexpected usage of singlequote                               jsx-quotes
+  44:13  error  Expected indentation of 10 space characters but found 12      react/jsx-indent
+  44:65  error  A space is required before '}'                                object-curly-spacing
+  44:67  error  A space is forbidden before closing bracket                   react/jsx-tag-spacing
+  45:17  error  Expected indentation of 14 space characters but found 16      react/jsx-indent
+  45:22  error  Unknown property 'class' found, use 'className' instead       react/no-unknown-property
+  46:21  error  Expected indentation of 18 space characters but found 20      react/jsx-indent
+  46:26  error  Unknown property 'class' found, use 'className' instead       react/no-unknown-property
+  47:25  error  Expected indentation of 22 space characters but found 24      react/jsx-indent
+  47:52  error  A space is required before closing bracket                    react/jsx-tag-spacing
+  49:21  error  Expected indentation of 18 space characters but found 20      react/jsx-indent
+  49:26  error  Unknown property 'class' found, use 'className' instead       react/no-unknown-property
+  50:25  error  Expected indentation of 22 space characters but found 24      react/jsx-indent
+  50:52  error  A space is required before closing bracket                    react/jsx-tag-spacing
+  52:21  error  Expected indentation of 18 space characters but found 20      react/jsx-indent
+  52:26  error  Unknown property 'class' found, use 'className' instead       react/no-unknown-property
+  53:25  error  Expected indentation of 22 space characters but found 24      react/jsx-indent
+  53:52  error  A space is required before closing bracket                    react/jsx-tag-spacing
+  56:17  error  Expected indentation of 14 space characters but found 16      react/jsx-indent
+  56:22  error  Unknown property 'class' found, use 'className' instead       react/no-unknown-property
+  57:21  error  Expected indentation of 18 space characters but found 20      react/jsx-indent
+  57:26  error  Unknown property 'class' found, use 'className' instead       react/no-unknown-property
+  58:25  error  Expected indentation of 22 space characters but found 24      react/jsx-indent
+  58:52  error  A space is required before closing bracket                    react/jsx-tag-spacing
+  63:1   error  Expected indentation of 2 spaces but found 4                  indent
+  63:6   error  Missing semicolon                                             semi
+
+/Users/aakash_personal/Desktop/personal_website/src/components/Resume/EducationItem.js
+   1:40  error  Missing semicolon                                                                                      semi
+   3:10  error  Expected to return a value at the end of function 'getButton'                                          consistent-return
+   4:1   error  Expected indentation of 2 spaces but found 4                                                           indent
+   5:1   error  Expected indentation of 4 spaces but found 8                                                           indent
+   5:16  error  Missing parentheses around multilines JSX                                                              react/jsx-wrap-multilines
+   5:16  error  Missing an explicit type attribute for button                                                          react/button-has-type
+   5:16  error  JSX not allowed in files with extension '.js'                                                          react/jsx-filename-extension
+   5:39  error  'handleClick' was used before it was defined                                                           no-use-before-define
+   5:81  error  Unknown property 'class' found, use 'className' instead                                                react/no-unknown-property
+   5:87  error  Unexpected usage of singlequote                                                                        jsx-quotes
+   6:13  error  Expected indentation of 10 space characters but found 12                                               react/jsx-indent
+   7:9   error  Expected closing tag to match indentation of opening                                                   react/jsx-closing-tag-location
+   7:18  error  Missing semicolon                                                                                      semi
+   8:1   error  Expected indentation of 2 spaces but found 4                                                           indent
+  12:1   error  Expected indentation of 2 spaces but found 4                                                           indent
+  13:1   error  Expected indentation of 4 spaces but found 8                                                           indent
+  14:1   error  Expected indentation of 4 spaces but found 8                                                           indent
+  15:1   error  Expected indentation of 2 spaces but found 4                                                           indent
+  16:1   error  Expected indentation of 4 spaces but found 8                                                           indent
+  17:1   error  Expected indentation of 4 spaces but found 8                                                           indent
+  18:1   error  Expected indentation of 2 spaces but found 4                                                           indent
+  22:1   error  Expected indentation of 2 spaces but found 4                                                           indent
+  22:47  error  Missing semicolon                                                                                      semi
+  23:1   error  Expected indentation of 2 spaces but found 4                                                           indent
+  25:1   error  Expected indentation of 2 spaces but found 4                                                           indent
+  26:9   error  Expected indentation of 6 space characters but found 8                                                 react/jsx-indent
+  27:13  error  Expected indentation of 10 space characters but found 12                                               react/jsx-indent
+  27:18  error  Unknown property 'class' found, use 'className' instead                                                react/no-unknown-property
+  27:24  error  Unexpected usage of singlequote                                                                        jsx-quotes
+  28:17  error  Expected indentation of 14 space characters but found 16                                               react/jsx-indent
+  28:51  error  Must use destructuring props assignment                                                                react/destructuring-assignment
+  28:57  error  'item' is missing in props validation                                                                  react/prop-types
+  28:62  error  'item.text' is missing in props validation                                                             react/prop-types
+  29:17  error  Expected indentation of 14 space characters but found 16                                               react/jsx-indent
+  29:22  error  Unknown property 'class' found, use 'className' instead                                                react/no-unknown-property
+  29:28  error  Unexpected usage of singlequote                                                                        jsx-quotes
+  30:21  error  Expected indentation of 18 space characters but found 20                                               react/jsx-indent
+  30:26  error  Unknown property 'class' found, use 'className' instead                                                react/no-unknown-property
+  30:32  error  Unexpected usage of singlequote                                                                        jsx-quotes
+  31:25  error  Expected indentation of 22 space characters but found 24                                               react/jsx-indent
+  31:30  error  Unknown property 'class' found, use 'className' instead                                                react/no-unknown-property
+  31:36  error  Unexpected usage of singlequote                                                                        jsx-quotes
+  32:29  error  Expected indentation of 26 space characters but found 28                                               react/jsx-indent
+  33:29  error  Expected indentation of 26 space characters but found 28                                               react/jsx-indent
+  34:33  error  Expected indentation of 30 space characters but found 32                                               react/jsx-indent
+  35:37  error  Must use destructuring props assignment                                                                react/destructuring-assignment
+  35:43  error  'item' is missing in props validation                                                                  react/prop-types
+  35:48  error  'item.coursework' is missing in props validation                                                       react/prop-types
+  35:59  error  'item.coursework.map' is missing in props validation                                                   react/prop-types
+  35:63  error  Expected parentheses around arrow function argument                                                    arrow-parens
+  35:73  error  Unexpected block statement surrounding arrow body; move the returned value immediately after the `=>`  arrow-body-style
+  36:1   error  Expected indentation of 38 spaces but found 40                                                         indent
+  36:65  error  Missing semicolon                                                                                      semi
+  44:13  error  Expected indentation of 10 space characters but found 12                                               react/jsx-indent
+  45:17  error  Expected indentation of 14 space characters but found 16                                               react/jsx-indent
+  46:31  error  Must use destructuring props assignment                                                                react/destructuring-assignment
+  46:37  error  'item' is missing in props validation                                                                  react/prop-types
+  46:42  error  'item.readMore' is missing in props validation                                                         react/prop-types
+  50:1   error  Expected indentation of 2 spaces but found 4                                                           indent
+  50:6   error  Missing semicolon                                                                                      semi
+
+/Users/aakash_personal/Desktop/personal_website/src/components/Resume/EducationTimeline.js
+   1:19   error  Strings must use singlequote                                                                           quotes
+   1:26   error  Missing semicolon                                                                                      semi
+   2:24   error  Strings must use singlequote                                                                           quotes
+   3:27   error  Strings must use singlequote                                                                           quotes
+   6:1    error  Expected indentation of 2 spaces but found 4                                                           indent
+   7:1    error  Expected indentation of 4 spaces but found 8                                                           indent
+   7:16   error  Strings must use singlequote                                                                           quotes
+   8:1    error  Expected indentation of 4 spaces but found 8                                                           indent
+   8:20   error  Strings must use singlequote                                                                           quotes
+   9:1    error  Expected indentation of 4 spaces but found 8                                                           indent
+   9:14   error  Strings must use singlequote                                                                           quotes
+  10:1    error  Expected indentation of 4 spaces but found 8                                                           indent
+  10:23   error  Strings must use singlequote                                                                           quotes
+  11:1    error  Expected indentation of 4 spaces but found 8                                                           indent
+  11:27   error  Strings must use singlequote                                                                           quotes
+  11:27   error  Multiline support is limited to browsers supporting ES5 only                                           no-multi-str
+  13:1    error  Expected indentation of 4 spaces but found 8                                                           indent
+  14:1    error  Expected indentation of 6 spaces but found 12                                                          indent
+  14:19   error  Strings must use singlequote                                                                           quotes
+  15:1    error  Expected indentation of 6 spaces but found 12                                                          indent
+  16:1    error  Expected indentation of 8 spaces but found 16                                                          indent
+  16:22   error  Strings must use singlequote                                                                           quotes
+  16:137  error  Missing trailing comma                                                                                 comma-dangle
+  17:1    error  Expected indentation of 6 spaces but found 12                                                          indent
+  17:14   error  Missing trailing comma                                                                                 comma-dangle
+  18:1    error  Expected indentation of 4 spaces but found 8                                                           indent
+  18:10   error  Missing trailing comma                                                                                 comma-dangle
+  19:1    error  Expected indentation of 2 spaces but found 4                                                           indent
+  20:1    error  Expected indentation of 2 spaces but found 4                                                           indent
+  21:1    error  Expected indentation of 4 spaces but found 8                                                           indent
+  21:16   error  Strings must use singlequote                                                                           quotes
+  22:1    error  Expected indentation of 4 spaces but found 8                                                           indent
+  22:20   error  Strings must use singlequote                                                                           quotes
+  23:1    error  Expected indentation of 4 spaces but found 8                                                           indent
+  23:14   error  Strings must use singlequote                                                                           quotes
+  24:1    error  Expected indentation of 4 spaces but found 8                                                           indent
+  24:23   error  Strings must use singlequote                                                                           quotes
+  25:1    error  Expected indentation of 4 spaces but found 8                                                           indent
+  26:1    error  Expected indentation of 4 spaces but found 8                                                           indent
+  27:1    error  Expected indentation of 6 spaces but found 12                                                          indent
+  28:1    error  Expected indentation of 6 spaces but found 12                                                          indent
+  28:19   error  Strings must use singlequote                                                                           quotes
+  29:1    error  Expected indentation of 6 spaces but found 12                                                          indent
+  30:1    error  Expected indentation of 8 spaces but found 16                                                          indent
+  30:22   error  Strings must use singlequote                                                                           quotes
+  30:94   error  Missing trailing comma                                                                                 comma-dangle
+  31:1    error  Expected indentation of 6 spaces but found 12                                                          indent
+  31:14   error  Missing trailing comma                                                                                 comma-dangle
+  32:1    error  Expected indentation of 4 spaces but found 8                                                           indent
+  32:10   error  Missing trailing comma                                                                                 comma-dangle
+  33:1    error  Expected indentation of 2 spaces but found 4                                                           indent
+  34:1    error  Expected indentation of 2 spaces but found 4                                                           indent
+  36:1    error  Expected indentation of 2 spaces but found 4                                                           indent
+  37:1    error  Expected indentation of 4 spaces but found 8                                                           indent
+  38:1    error  Expected indentation of 6 spaces but found 12                                                          indent
+  39:1    error  Expected indentation of 6 spaces but found 12                                                          indent
+  40:1    error  Expected indentation of 8 spaces but found 24                                                          indent
+  41:1    error  Expected indentation of 8 spaces but found 24                                                          indent
+  42:1    error  Expected indentation of 6 spaces but found 12                                                          indent
+  42:27   error  Missing trailing comma                                                                                 comma-dangle
+  43:1    error  Expected indentation of 4 spaces but found 8                                                           indent
+  44:1    error  Expected indentation of 4 spaces but found 8                                                           indent
+  45:1    error  Expected indentation of 6 spaces but found 12                                                          indent
+  46:1    error  Expected indentation of 6 spaces but found 12                                                          indent
+  47:1    error  Expected indentation of 6 spaces but found 12                                                          indent
+  48:1    error  Expected indentation of 6 spaces but found 12                                                          indent
+  49:1    error  Expected indentation of 4 spaces but found 8                                                           indent
+  50:1    error  Expected indentation of 2 spaces but found 4                                                           indent
+  50:6    error  Missing semicolon                                                                                      semi
+  52:1    error  Expected indentation of 2 spaces but found 4                                                           indent
+  53:9    error  Expected indentation of 6 space characters but found 8                                                 react/jsx-indent
+  53:9    error  JSX not allowed in files with extension '.js'                                                          react/jsx-filename-extension
+  54:13   error  Expected indentation of 10 space characters but found 12                                               react/jsx-indent
+  54:40   error  Curly braces are unnecessary here                                                                      react/jsx-curly-brace-presence
+  54:41   error  Strings must use singlequote                                                                           quotes
+  54:53   error  Value must be omitted for boolean attributes                                                           react/jsx-boolean-value
+  55:17   error  Expected indentation of 14 space characters but found 16                                               react/jsx-indent
+  56:31   error  Expected parentheses around arrow function argument                                                    arrow-parens
+  56:39   error  Unexpected block statement surrounding arrow body; move the returned value immediately after the `=>`  arrow-body-style
+  57:1    error  Expected indentation of 22 spaces but found 24                                                         indent
+  57:61   error  Missing semicolon                                                                                      semi
+  62:1    error  Expected indentation of 2 spaces but found 4                                                           indent
+  62:6    error  Missing semicolon                                                                                      semi
+  63:2    error  Newline required at end of file but not found                                                          eol-last
+
+/Users/aakash_personal/Desktop/personal_website/src/components/Resume/Resume.js
+   1:26  error  Missing semicolon                              semi
+   2:42  error  Missing semicolon                              semi
+   3:52  error  Missing semicolon                              semi
+   7:5   error  JSX not allowed in files with extension '.js'  react/jsx-filename-extension
+   7:17  error  A space is required after '{'                  object-curly-spacing
+   7:34  error  A space is required before '}'                 object-curly-spacing
+   8:14  error  Unexpected usage of singlequote                jsx-quotes
+   8:64  error  A space is required before '}'                 object-curly-spacing
+  10:14  error  Unexpected usage of singlequote                jsx-quotes
+  10:82  error  A space is required before '}'                 object-curly-spacing
+  13:4   error  Missing semicolon                              semi
+
+/Users/aakash_personal/Desktop/personal_website/src/components/Resume/WorkItem.js
+   1:40  error  Missing semicolon                                                                                      semi
+   3:10  error  Expected to return a value at the end of function 'getButton'                                          consistent-return
+   4:1   error  Expected indentation of 2 spaces but found 4                                                           indent
+   5:1   error  Expected indentation of 4 spaces but found 8                                                           indent
+   5:16  error  Missing parentheses around multilines JSX                                                              react/jsx-wrap-multilines
+   5:16  error  Missing an explicit type attribute for button                                                          react/button-has-type
+   5:16  error  JSX not allowed in files with extension '.js'                                                          react/jsx-filename-extension
+   5:39  error  'handleClick' was used before it was defined                                                           no-use-before-define
+   5:81  error  Unknown property 'class' found, use 'className' instead                                                react/no-unknown-property
+   5:87  error  Unexpected usage of singlequote                                                                        jsx-quotes
+   6:13  error  Expected indentation of 10 space characters but found 12                                               react/jsx-indent
+   7:9   error  Expected closing tag to match indentation of opening                                                   react/jsx-closing-tag-location
+   7:18  error  Missing semicolon                                                                                      semi
+   8:1   error  Expected indentation of 2 spaces but found 4                                                           indent
+  12:1   error  Expected indentation of 2 spaces but found 4                                                           indent
+  13:1   error  Expected indentation of 4 spaces but found 8                                                           indent
+  14:1   error  Expected indentation of 4 spaces but found 8                                                           indent
+  15:1   error  Expected indentation of 2 spaces but found 4                                                           indent
+  16:1   error  Expected indentation of 4 spaces but found 8                                                           indent
+  17:1   error  Expected indentation of 4 spaces but found 8                                                           indent
+  18:1   error  Expected indentation of 2 spaces but found 4                                                           indent
+  22:1   error  Expected indentation of 2 spaces but found 4                                                           indent
+  22:47  error  Missing semicolon                                                                                      semi
+  23:1   error  Expected indentation of 2 spaces but found 4                                                           indent
+  25:1   error  Expected indentation of 2 spaces but found 4                                                           indent
+  26:9   error  Expected indentation of 6 space characters but found 8                                                 react/jsx-indent
+  27:13  error  Expected indentation of 10 space characters but found 12                                               react/jsx-indent
+  27:18  error  Unknown property 'class' found, use 'className' instead                                                react/no-unknown-property
+  27:24  error  Unexpected usage of singlequote                                                                        jsx-quotes
+  28:17  error  Expected indentation of 14 space characters but found 16                                               react/jsx-indent
+  28:51  error  Must use destructuring props assignment                                                                react/destructuring-assignment
+  28:57  error  'item' is missing in props validation                                                                  react/prop-types
+  28:62  error  'item.text' is missing in props validation                                                             react/prop-types
+  29:17  error  Expected indentation of 14 space characters but found 16                                               react/jsx-indent
+  29:22  error  Unknown property 'class' found, use 'className' instead                                                react/no-unknown-property
+  29:28  error  Unexpected usage of singlequote                                                                        jsx-quotes
+  30:21  error  Expected indentation of 18 space characters but found 20                                               react/jsx-indent
+  30:26  error  Unknown property 'class' found, use 'className' instead                                                react/no-unknown-property
+  30:32  error  Unexpected usage of singlequote                                                                        jsx-quotes
+  31:25  error  Expected indentation of 22 space characters but found 24                                               react/jsx-indent
+  31:30  error  Unknown property 'class' found, use 'className' instead                                                react/no-unknown-property
+  31:36  error  Unexpected usage of singlequote                                                                        jsx-quotes
+  32:29  error  Expected indentation of 26 space characters but found 28                                               react/jsx-indent
+  33:29  error  Expected indentation of 26 space characters but found 28                                               react/jsx-indent
+  34:33  error  Expected indentation of 30 space characters but found 32                                               react/jsx-indent
+  35:37  error  Must use destructuring props assignment                                                                react/destructuring-assignment
+  35:43  error  'item' is missing in props validation                                                                  react/prop-types
+  35:48  error  'item.impacts' is missing in props validation                                                          react/prop-types
+  35:56  error  'item.impacts.map' is missing in props validation                                                      react/prop-types
+  35:60  error  Expected parentheses around arrow function argument                                                    arrow-parens
+  35:70  error  Unexpected block statement surrounding arrow body; move the returned value immediately after the `=>`  arrow-body-style
+  36:1   error  Expected indentation of 38 spaces but found 40                                                         indent
+  36:65  error  Missing semicolon                                                                                      semi
+  41:25  error  Expected indentation of 22 space characters but found 24                                               react/jsx-indent
+  41:30  error  Unknown property 'class' found, use 'className' instead                                                react/no-unknown-property
+  41:36  error  Unexpected usage of singlequote                                                                        jsx-quotes
+  42:29  error  Expected indentation of 26 space characters but found 28                                               react/jsx-indent
+  43:29  error  Expected indentation of 26 space characters but found 28                                               react/jsx-indent
+  44:33  error  Expected indentation of 30 space characters but found 32                                               react/jsx-indent
+  45:37  error  Must use destructuring props assignment                                                                react/destructuring-assignment
+  45:43  error  'item' is missing in props validation                                                                  react/prop-types
+  45:48  error  'item.technologies' is missing in props validation                                                     react/prop-types
+  45:61  error  'item.technologies.map' is missing in props validation                                                 react/prop-types
+  45:65  error  Expected parentheses around arrow function argument                                                    arrow-parens
+  45:79  error  Unexpected block statement surrounding arrow body; move the returned value immediately after the `=>`  arrow-body-style
+  46:1   error  Expected indentation of 38 spaces but found 40                                                         indent
+  46:69  error  Missing semicolon                                                                                      semi
+  54:13  error  Expected indentation of 10 space characters but found 12                                               react/jsx-indent
+  55:17  error  Expected indentation of 14 space characters but found 16                                               react/jsx-indent
+  56:31  error  Must use destructuring props assignment                                                                react/destructuring-assignment
+  56:37  error  'item' is missing in props validation                                                                  react/prop-types
+  56:42  error  'item.readMore' is missing in props validation                                                         react/prop-types
+  60:1   error  Expected indentation of 2 spaces but found 4                                                           indent
+  60:6   error  Missing semicolon                                                                                      semi
+
+/Users/aakash_personal/Desktop/personal_website/src/components/Resume/WorkTimeline.js
+   1:19    error  Strings must use singlequote                                                                           quotes
+   1:26    error  Missing semicolon                                                                                      semi
+   2:24    error  Strings must use singlequote                                                                           quotes
+   3:22    error  Strings must use singlequote                                                                           quotes
+   7:12    error  Strings must use singlequote                                                                           quotes
+   8:16    error  Strings must use singlequote                                                                           quotes
+   9:10    error  Strings must use singlequote                                                                           quotes
+  10:19    error  Strings must use singlequote                                                                           quotes
+  11:23    error  Strings must use singlequote                                                                           quotes
+  11:23    error  Multiline support is limited to browsers supporting ES5 only                                           no-multi-str
+  14:13    error  Strings must use singlequote                                                                           quotes
+  16:14    error  Strings must use singlequote                                                                           quotes
+  16:7786  error  Missing trailing comma                                                                                 comma-dangle
+  17:8     error  Missing trailing comma                                                                                 comma-dangle
+  18:6     error  Missing trailing comma                                                                                 comma-dangle
+  21:12    error  Strings must use singlequote                                                                           quotes
+  22:16    error  Strings must use singlequote                                                                           quotes
+  23:10    error  Strings must use singlequote                                                                           quotes
+  24:19    error  Strings must use singlequote                                                                           quotes
+  25:23    error  Strings must use singlequote                                                                           quotes
+  25:23    error  Multiline support is limited to browsers supporting ES5 only                                           no-multi-str
+  28:13    error  Strings must use singlequote                                                                           quotes
+  30:14    error  Strings must use singlequote                                                                           quotes
+  30:77    error  Missing trailing comma                                                                                 comma-dangle
+  31:8     error  Missing trailing comma                                                                                 comma-dangle
+  32:6     error  Missing trailing comma                                                                                 comma-dangle
+  36:12    error  Strings must use singlequote                                                                           quotes
+  37:16    error  Strings must use singlequote                                                                           quotes
+  38:10    error  Strings must use singlequote                                                                           quotes
+  39:19    error  Strings must use singlequote                                                                           quotes
+  40:23    error  Strings must use singlequote                                                                           quotes
+  42:13    error  Strings must use singlequote                                                                           quotes
+  44:14    error  Strings must use singlequote                                                                           quotes
+  44:7786  error  Missing trailing comma                                                                                 comma-dangle
+  45:8     error  Missing trailing comma                                                                                 comma-dangle
+  46:6     error  Missing trailing comma                                                                                 comma-dangle
+  55:22    error  Missing trailing comma                                                                                 comma-dangle
+  58:13    error  Multiline support is limited to browsers supporting ES5 only                                           no-multi-str
+  65:13    error  Multiline support is limited to browsers supporting ES5 only                                           no-multi-str
+  69:21    error  Missing trailing comma                                                                                 comma-dangle
+  70:6     error  Missing trailing comma                                                                                 comma-dangle
+  71:4     error  Missing semicolon                                                                                      semi
+  74:5     error  JSX not allowed in files with extension '.js'                                                          react/jsx-filename-extension
+  75:34    error  Curly braces are unnecessary here                                                                      react/jsx-curly-brace-presence
+  75:35    error  Strings must use singlequote                                                                           quotes
+  75:47    error  Value must be omitted for boolean attributes                                                           react/jsx-boolean-value
+  77:21    error  Expected parentheses around arrow function argument                                                    arrow-parens
+  77:29    error  Unexpected block statement surrounding arrow body; move the returned value immediately after the `=>`  arrow-body-style
+  78:44    error  Missing semicolon                                                                                      semi
+  83:4     error  Missing semicolon                                                                                      semi
+  84:2     error  Newline required at end of file but not found                                                          eol-last
+
+/Users/aakash_personal/Desktop/personal_website/src/index.js
+   8:3   error  JSX not allowed in files with extension '.js'  react/jsx-filename-extension
+  10:22  error  Missing trailing comma                         comma-dangle
+  15:75  error  Newline required at end of file but not found  eol-last
+
+✖ 827 problems (826 errors, 1 warning)
+  720 errors and 0 warnings potentially fixable with the `--fix` option.
+
